@@ -20,6 +20,7 @@
 \include "Polskie/przewracany.ly"
 \include "Polskie/rowny.ly"
 \include "Polskie/sabasowka.ly"
+\include "Polskie/szabasowka-taniec.ly"
 \include "Polskie/taniec-zydowski.ly"
 \include "Polskie/to-i-hola.ly"
 \include "Polskie/zaszumialy-drzewa.ly"
