@@ -20,6 +20,7 @@
 \include "Polskie/przewracany.ly"
 \include "Polskie/rowny.ly"
 \include "Polskie/sabasowka.ly"
+\include "Polskie/taniec-zydowski.ly"
 \include "Polskie/to-i-hola.ly"
 \include "Polskie/zaszumialy-drzewa.ly"
 \include "Polskie/z-tamtej-strony.ly"
@@ -63,8 +64,8 @@
   
   \header { 
     title = "Ludogranie"
-    subtitle = "a collection of tunes for a session"
-    tagline = "(Ludogranie. Version 2018-06-27. For updates join the Ludogranie Facebook Group)" 
+    subtitle = "a collection of tunes for a polish folk session session"
+    tagline = "(Ludogranie. Version 2019-01-23. For updates join the Ludogranie Facebook Group)" 
   }
  
   \bookpart {
@@ -329,6 +330,8 @@
       >>
     } %score
     
+    \pageBreak
+    
     \score {
       \header { 
         piece = \markup { \rounded-box { 21 } \polka_dgao_title }
@@ -362,6 +365,22 @@
       <<
         \new ChordNames { \polka_wiesniak_chords }
         \new Staff { \polka_wiesniak_melody }
+      >>
+    } %score
+    
+    
+    
+    \pageBreak
+    
+    \score {
+      \header { 
+        piece = \markup { \rounded-box { 24 } \taniec_zydowski_title }
+        opus = \taniec_zydowski_composer
+      }
+       
+      <<
+        \new ChordNames { \taniec_zydowski_chords }
+        \new Staff { \taniec_zydowski_melody }
       >>
     } %score
   } %bookpart
