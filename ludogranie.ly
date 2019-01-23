@@ -383,5 +383,17 @@
         \new Staff { \taniec_zydowski_melody }
       >>
     } %score
+    
+    \score {
+      \header { 
+        piece = \markup { \rounded-box { 25 } \sabasowka_taniec_title }
+        opus = \sabasowka_taniec_composer
+      }
+       
+      <<
+        \new ChordNames { \sabasowka_taniec_chords }
+        \new Staff { \sabasowka_taniec_melody }
+      >>
+    } %score
   } %bookpart
 } %book
