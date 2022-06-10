@@ -7,7 +7,7 @@
 % Zbigniew Racis bębenek 
 % Jasionowo, powiat suwalski, 1992
 
-taniec_zydowski_title = "Taniec żydowski"
+taniec_zydowski_title = "Taniec Żydowski"
 taniec_zydowski_composer = "trad. (powiat suwalski)"
 
 taniec_zydowski_common =  {
@@ -31,18 +31,20 @@ taniec_zydowski_melody = \relative a'' {
     e8 d c b?
     a4 a 
     
-    a8. b16 c8 c 
+    a8 a16 b16 c8 c 
     d4 f 
     e8 d c b 
     a4 a
   }
-  \repeat volta 2 {
+    
     a'16 e a8 e4
     a16 e a8 e4
     a8 a g fis
     e4 d 
-    a8 a16 b c4 
-    d8 d f4
+    
+  \repeat volta 2 {
+    a8 a16 b c8 c 
+    d8 d f8 f
     e8 d c b 
     a4 a
   }

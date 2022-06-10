@@ -30,7 +30,7 @@ rowny_chords = \chordmode {
   
   \repeat volta 2 { 
     c4. f d:m g 
-    c4. d:m a4:m/c g8 c4.
+    c4. f c4 g8 c4.
   }
   \break
   \repeat volta 2 {
